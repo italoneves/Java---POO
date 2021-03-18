@@ -1,1 +1,1 @@
-Códigos feitos em java utilizando os paradigmas da orientação a objetos
+Códigos feitos em java utilizando os paradigmas da orientação a objetos.
