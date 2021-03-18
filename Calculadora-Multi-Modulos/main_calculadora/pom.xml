@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>br.com.questoes</groupId>
+    <artifactId>Calculadora-Multi-Modulos</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>br.com.</groupId>
+  <artifactId>main_calculadora</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>main_calculadora</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+
+<!--    Adicionar(main) dependencia para funcionar o multi-modulos-->
+
+    <dependency>
+
+      <groupId>br.com.questoes</groupId>
+      <artifactId>calculadora</artifactId>
+      <version>1.0-SNAPSHOT</version>
+
+    </dependency>
+    
+  </dependencies>
+</project>
