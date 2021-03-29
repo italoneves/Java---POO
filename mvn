@@ -1,0 +1,24 @@
+1- Criar estrutura: 
+
+    mvn archetype:generate -DgroupId=br.edu.ifpb -DartifactId=FacadeTv -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+2- Para limpar a estrutura de diretórios: 
+ 
+        mvn clean
+
+
+3- Para compilar:  
+    
+    mvn compile
+
+4- Para executar a classe:
+
+    [my-app]$ java -cp target/classes  br.edu.ifpb.App
+
+5- Para gerar o jar: 
+
+        $ mvn package
+
+6- Para executar o jar:
+
+     java -jar target/my-app-1.0-SNAPSHOT.jar
