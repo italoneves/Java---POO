@@ -1,0 +1,20 @@
+Nesse projeto tem um programa que cria uma Universidade. 
+
+classes: Universidade | Funcionário | Gerente | Professor | Main
+
+
+Universidade e funcionário tem uma AGREGAÇÃO.
+
+Gerente e professor EXTENDS funcionário.
+
+Main USA Universidade
+
+
+Foi utilizado encapsulamento (private) 
+Foi utilizado Herança (extends)
+Foi utilizado do POLIMORFISMO (universidade (Funcionario.. ) ) 
+
+super() --> chamo o construtor da superclasse
+super.  ---> chamo um método da superclasse
+this()    ---> chamo um construtor da própria classe
+this.
