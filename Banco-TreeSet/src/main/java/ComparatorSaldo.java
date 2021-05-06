@@ -1,7 +1,7 @@
 
 import java.util.Comparator;
 
-public class ComparatorSaldo implements Comparator<Conta> {
+public class ComparatorSaldo implements Comparator<Conta>{
 
 
     @Override

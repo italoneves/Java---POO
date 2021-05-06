@@ -9,8 +9,7 @@ import java.util.*;
 //      lower, floor, ceiling, higher
 
 
-public class InterfaceTextual
-{
+public class InterfaceTextual{
     public static void main( String[] args )
     {
 

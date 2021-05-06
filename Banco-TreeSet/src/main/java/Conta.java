@@ -1,7 +1,7 @@
 import java.util.Comparator;
 import java.util.Objects;
 
-public class Conta implements Comparable<Conta> {
+public class Conta implements Comparable<Conta>{
 
     //Comparator<Conta> -- >
     //comparable --> define o padrão
