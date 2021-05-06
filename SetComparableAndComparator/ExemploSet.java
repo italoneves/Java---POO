@@ -38,14 +38,14 @@ public class ExemploSet {
 //--------------------------------------------------------------------------------------------------------------------------
     //COMPARATOR
         //Jeito mais simples
-        Set novo = new TreeSet(new ClienteComparatorNome());
+        Set novo = new TreeSet(new ClienteComparatorIdade());
         novo.addAll(listaClient);
 
-        ClienteComparatorNome clienteComparatorNome = new ClienteComparatorNome();
+        ClienteComparatorIdade clienteComparatorIdade = new ClienteComparatorIdade();
         //Forma mais trabalhosa
         List<Cliente> listaDeSet = new ArrayList<>();
         listaDeSet.addAll(listaClient); //Transformo o set em uma lista
-        Collections.sort(listaDeSet, new ClienteComparatorNome()); //Faço a compararaçao com comparator
+        Collections.sort(listaDeSet, new ClienteComparatorIdade()); //Faço a compararaçao com comparator
         System.out.println("ORDENADO PELA IDADE");
         System.out.println(listaDeSet);
     }

@@ -2,7 +2,7 @@ package SetComparableAndComparator;
 
 import java.util.Comparator;
 
-public class ClienteComparatorNome implements Comparator<Cliente> {
+public class ClienteComparatorIdade implements Comparator<Cliente> {
 
 
     @Override
