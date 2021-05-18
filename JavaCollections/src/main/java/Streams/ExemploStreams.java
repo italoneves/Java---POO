@@ -2,9 +2,10 @@ package Streams;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 
-public class ExemploStreams {
+public class ExemploStreams{
 
     public static void main(String[] args) {
 
@@ -41,5 +42,11 @@ public class ExemploStreams {
         //Print na ordem
         System.out.println("\n\nPrint em ordem, sem paralelismo");
         listaClient.stream().limit(4).forEach(cliente -> System.out.println(cliente.toString()));
+
+        //Método reduce
+        List<Integer> listidade = listaClient.stream().map(cliente -> cliente.getIdade()).collect(Collectors.toList());
+        System.out.println(listidade);
+        System.out.println(listidade.stream().reduce(0, Integer::sum));
+
     }
 }

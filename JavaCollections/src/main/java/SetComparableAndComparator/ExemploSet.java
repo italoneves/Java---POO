@@ -2,7 +2,7 @@ package SetComparableAndComparator;
 
 import java.util.*;
 
-public class ExemploSet{
+public class ExemploSet {
 
     public static void main(String[] args) {
 

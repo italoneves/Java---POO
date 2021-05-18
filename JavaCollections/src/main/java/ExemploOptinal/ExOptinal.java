@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.OptionalDouble;
 
-public class ExOptinal{
+public class ExOptinal {
 
     public static void main(String[] args) throws NullPointerException {
         // pode receber null
