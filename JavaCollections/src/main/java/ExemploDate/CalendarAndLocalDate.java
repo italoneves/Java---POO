@@ -30,7 +30,7 @@ public class CalendarAndLocalDate {
 
         String r = dataAgora.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")); // "yyyy-MM-dd" Padrão do LocalDate - -
         //LocalDate.parse(r); //Tranformar para data //padrão é yyyy-MM-dd
-        System.out.println(dataAgora.getDayOfWeek()); //WEDNESDAY .PEGAR O DIA DA DATA DO MÊS
+        System.out.println("Dia da semana: "+dataAgora.getDayOfWeek()); //WEDNESDAY .PEGAR O DIA DA SEMANA
 
 
 
