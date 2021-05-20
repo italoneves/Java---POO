@@ -44,9 +44,8 @@ public class ExemploStreams{
         listaClient.stream().limit(4).forEach(cliente -> System.out.println(cliente.toString()));
 
         //Método reduce
-        List<Integer> listidade = listaClient.stream().map(cliente -> cliente.getIdade()).collect(Collectors.toList());
-        System.out.println(listidade);
-        System.out.println(listidade.stream().reduce(0, Integer::sum));
+        System.out.println(listaClient.stream().map(cliente -> cliente.getIdade()).reduce(0, Integer::sum));
+        //System.out.println(listidade.stream().reduce(0, Integer::sum));
 
     }
 }
