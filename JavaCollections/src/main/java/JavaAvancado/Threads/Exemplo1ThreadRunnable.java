@@ -2,9 +2,7 @@ package JavaAvancado.Threads;
 
 import static java.lang.Thread.*;
 
-public class Exemplo1Thread {
-
-
+public class Exemplo1ThreadRunnable {
 
     public static Runnable pdf = new Runnable(){
         @Override
