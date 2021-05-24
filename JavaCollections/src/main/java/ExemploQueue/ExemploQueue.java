@@ -15,8 +15,6 @@ public class ExemploQueue {
         filaBanco.add("Fulano");
 
         System.out.println(filaBanco);
-
-
         System.out.println("PEEK " +filaBanco.peek()); //RETORNA 1° ELEMENTO // MAS NÃO REMOVE
         System.out.println(filaBanco);
         System.out.println("REMOVE "+filaBanco.remove()); // RETORNA 1°ELEMENTO E REMOVE, RETORNA EXCEPTION CASO VAZIA
