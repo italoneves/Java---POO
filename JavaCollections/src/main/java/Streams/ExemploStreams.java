@@ -46,6 +46,10 @@ public class ExemploStreams{
         //Método reduce
         System.out.println(listaClient.stream().map(cliente -> cliente.getIdade()).reduce(0, Integer::sum));
         //System.out.println(listidade.stream().reduce(0, Integer::sum));
+        int inicial =0;
+        System.out.println(listaClient.stream().map(nome -> nome.getIdade())
+                .reduce(inicial, (aux, outroValor) -> aux > outroValor ?
+                        aux : outroValor));
 
     }
 }

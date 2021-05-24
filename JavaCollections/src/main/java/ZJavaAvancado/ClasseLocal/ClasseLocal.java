@@ -1,6 +1,4 @@
-package JavaAvancado.ClasseLocal;
-
-import JavaAvancado.ClassesInternas.Externa;
+package ZJavaAvancado.ClasseLocal;
 
 public class ClasseLocal {
 

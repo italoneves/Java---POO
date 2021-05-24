@@ -1,4 +1,4 @@
-package JavaAvancado.InterfaceFuncional;
+package ZJavaAvancado.InterfaceFuncional;
 
 import java.util.function.Predicate;
 

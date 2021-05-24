@@ -1,4 +1,4 @@
-package JavaAvancado.Threads;
+package ZJavaAvancado.Threads;
 
 public class Exemplo2Thread {
     public static void main(String[] args) {
