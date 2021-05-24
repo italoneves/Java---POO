@@ -1,6 +1,4 @@
-package JavaAvancado.Threads;
-
-import static java.lang.Thread.*;
+package ZJavaAvancado.Threads;
 
 public class Exemplo1ThreadRunnable {
 
