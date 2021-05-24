@@ -1,4 +1,4 @@
-package JavaAvancado.ClassesInternas;
+package ZJavaAvancado.ClassesInternas;
 
 public class Externa {
     private String nome = "Externa";

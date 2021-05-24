@@ -1,4 +1,4 @@
-package JavaAvancado.ClassesAnonimas;
+package ZJavaAvancado.ClassesAnonimas;
 
 public class Cachorro {
 
