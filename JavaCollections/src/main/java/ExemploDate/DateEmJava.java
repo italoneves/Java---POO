@@ -32,7 +32,7 @@ public class DateEmJava {
 
 
         System.out.println("Pegar data em MIllis: " + novaData.getTime()); // PEGAR EM MILLIS SEGUNDOS
-        Timestamp b = new Timestamp(887598000000l);
+        Timestamp b = new Timestamp(887598000000l); //TRANSFORMAR DE MILES PARA DATA
         System.out.println("Printar millis -> data " + b);
 
 
