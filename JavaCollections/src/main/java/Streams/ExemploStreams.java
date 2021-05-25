@@ -51,5 +51,9 @@ public class ExemploStreams{
                 .reduce(inicial, (aux, outroValor) -> aux > outroValor ?
                         aux : outroValor));
 
+
+
+        String nome = "teste";
+        System.out.println(nome.substring(1,4));
     }
 }
