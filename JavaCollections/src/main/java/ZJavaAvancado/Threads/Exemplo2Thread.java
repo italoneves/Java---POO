@@ -2,7 +2,6 @@ package ZJavaAvancado.Threads;
 
 public class Exemplo2Thread {
     public static void main(String[] args) {
-
         Pdf p = new Pdf();
         Loading l = new Loading(p);
         p.start();
