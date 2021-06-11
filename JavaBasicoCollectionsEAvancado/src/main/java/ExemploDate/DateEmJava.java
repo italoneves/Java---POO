@@ -14,7 +14,7 @@ public class DateEmJava {
         System.out.println("Data atual normal: "+data);  // Tue Apr 06 15:50:02 BRT 2021 //data atual
         System.out.println("Data atual do PC em Millis: " + System.currentTimeMillis()); //Data atual em Millis
 
-        Timestamp k= new Timestamp(1617737805794l); //Transformar a data  em milis para data normal
+        Timestamp k= new Timestamp(1617737805794l); //Transformar a data  em milis  -> para data normal
         System.out.println("Data normal após tranformar de Millis : "+k + "\n");
 
         //SimpleDateFormat pega em MillisSegundos
